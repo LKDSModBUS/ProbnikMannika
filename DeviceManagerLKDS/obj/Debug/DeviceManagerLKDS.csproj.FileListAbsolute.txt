@@ -11,3 +11,17 @@ C:\Users\nazar\Desktop\DeviceManagerLKDS-df211a1bece6d3d77418f95e2cf132bcd44257f
 C:\Users\nazar\Desktop\DeviceManagerLKDS-df211a1bece6d3d77418f95e2cf132bcd44257fa\DeviceManagerLKDS\obj\Debug\DeviceManagerLKDS.csproj.CopyComplete
 C:\Users\nazar\Desktop\DeviceManagerLKDS-df211a1bece6d3d77418f95e2cf132bcd44257fa\DeviceManagerLKDS\obj\Debug\DeviceManagerLKDS.exe
 C:\Users\nazar\Desktop\DeviceManagerLKDS-df211a1bece6d3d77418f95e2cf132bcd44257fa\DeviceManagerLKDS\obj\Debug\DeviceManagerLKDS.pdb
+C:\Users\Prometheus\Source\Repos\ProbnikMannika\DeviceManagerLKDS\bin\Debug\DeviceManagerLKDS.exe.config
+C:\Users\Prometheus\Source\Repos\ProbnikMannika\DeviceManagerLKDS\bin\Debug\DeviceManagerLKDS.exe
+C:\Users\Prometheus\Source\Repos\ProbnikMannika\DeviceManagerLKDS\bin\Debug\DeviceManagerLKDS.pdb
+C:\Users\Prometheus\Source\Repos\ProbnikMannika\DeviceManagerLKDS\bin\Debug\LKDS_Type.dll
+C:\Users\Prometheus\Source\Repos\ProbnikMannika\DeviceManagerLKDS\bin\Debug\LKDS_Type.pdb
+C:\Users\Prometheus\Source\Repos\ProbnikMannika\DeviceManagerLKDS\obj\Debug\DeviceManagerLKDS.csproj.AssemblyReference.cache
+C:\Users\Prometheus\Source\Repos\ProbnikMannika\DeviceManagerLKDS\obj\Debug\DeviceManagerLKDS.csproj.SuggestedBindingRedirects.cache
+C:\Users\Prometheus\Source\Repos\ProbnikMannika\DeviceManagerLKDS\obj\Debug\DeviceManagerLKDS.Form1.resources
+C:\Users\Prometheus\Source\Repos\ProbnikMannika\DeviceManagerLKDS\obj\Debug\DeviceManagerLKDS.Properties.Resources.resources
+C:\Users\Prometheus\Source\Repos\ProbnikMannika\DeviceManagerLKDS\obj\Debug\DeviceManagerLKDS.csproj.GenerateResource.cache
+C:\Users\Prometheus\Source\Repos\ProbnikMannika\DeviceManagerLKDS\obj\Debug\DeviceManagerLKDS.csproj.CoreCompileInputs.cache
+C:\Users\Prometheus\Source\Repos\ProbnikMannika\DeviceManagerLKDS\obj\Debug\DeviceManagerLKDS.csproj.CopyComplete
+C:\Users\Prometheus\Source\Repos\ProbnikMannika\DeviceManagerLKDS\obj\Debug\DeviceManagerLKDS.exe
+C:\Users\Prometheus\Source\Repos\ProbnikMannika\DeviceManagerLKDS\obj\Debug\DeviceManagerLKDS.pdb

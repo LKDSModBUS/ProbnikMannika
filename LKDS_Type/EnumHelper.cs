@@ -1,16 +1,31 @@
 ﻿using System;
-using System.ComponentModel;
 using System.Collections.Generic;
-using System.IO.Ports;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel;
 using System.Runtime.InteropServices;
 
-namespace DeviceManagerLKDS.Classes
+namespace LKDS_Type
 {
-    public static class Enums
+    public static class EnumHelper
     {
+        public static string GetNameOfEnum(this Enum enumVal)
+        {
+            var type = enumVal.GetType();
+            var memInfo = type.GetMember(enumVal.ToString());
+            try
+            {
+                var attributes = memInfo[0].GetCustomAttributes(typeof(DescriptionAttribute), false);
+                return (attributes.Length > 0) ? ((DescriptionAttribute)attributes[0]).Description : "";
+            }
+            catch
+            {
+                return Convert.ToInt16(enumVal).ToString("X4");
+            }
+
+        }
+
         [StructLayout(LayoutKind.Explicit)]
         public struct Union16
         {
@@ -68,23 +83,29 @@ namespace DeviceManagerLKDS.Classes
             Byte3
             };
         }
-
-        public static string GetNameOfEnum(this Enum enumVal)
+        public enum CmdTypes
         {
-            var type = enumVal.GetType();
-            var memInfo = type.GetMember(enumVal.ToString());
-            try
-            {
-                var attributes = memInfo[0].GetCustomAttributes(typeof(DescriptionAttribute), false);
-                return (attributes.Length > 0) ? ((DescriptionAttribute)attributes[0]).Description : "";
-            }
-            catch
-            {
-                return Convert.ToInt16(enumVal).ToString("X4");
-            }
+            AdapterOn = 0x05,
+            AdapterOff = 0x04,
+            AdapterReset = 0x01,
+            LiftOrder = 0x01,
+            LiftCallUpSideA = 0x02,
+            LiftCallDownSideA = 0x03,
+            LiftCallUpSideB = 0x04,
+            LiftCallDownSideB = 0x05,
+            LiftLockOrder = 0x11,
+            LiftLockUpSideA = 0x12,
+            LiftLockDownSideA = 0x13,
+            LiftLockUpSideB = 0x14,
+            LiftLockDownSideB = 0x15,
+            LiftUnLockOrder = 0x21,
+            LiftUnLockUpSideA = 0x22,
+            LiftUnLockDownSideA = 0x23,
+            LiftUnLockUpSideB = 0x24,
+            LiftUnLockDownSideB = 0x25
 
         }
-        
+
         public enum CAN_Devices
         {
             [Description("ЛБ/Концентратор")]
