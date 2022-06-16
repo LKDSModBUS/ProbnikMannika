@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
-using static DeviceManagerLKDS.Classes.Enums;
+using static LKDS_Type.EnumHelper;
 using LKDS_Type;
 
 namespace DeviceManagerLKDS
@@ -344,24 +344,14 @@ namespace DeviceManagerLKDS
 
         #endregion
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
 
         public void button4_Click(object sender, EventArgs e)
         {
             Process.Start("C:\\Users\\nazar\\Desktop\\DeviceManagerLKDS - df211a1bece6d3d77418f95e2cf132bcd44257fa\\DeviceManagerLKDS\\Logs");
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void Form1_Paint(object sender, PaintEventArgs e)
         {
-
-        }
-
-        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

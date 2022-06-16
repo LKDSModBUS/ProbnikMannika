@@ -35,5 +35,12 @@ namespace LKDS_Type
 
             return CRC;
         }
+
+        void SetData(byte[] address, ushort mask)
+        {
+            
+        }
+
+        delegate void OnCmd(Enum current_enum, short mask);
     }
 }
